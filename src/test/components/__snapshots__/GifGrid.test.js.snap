@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <GifGrid /> debe de mostrar items cuando se hace el fetch a useFetchGifs 1`] = `
+<Fragment>
+  <h3>
+    Overwatch
+  </h3>
+  <div
+    className="gif-grid animate__animated animate__fadeIn"
+  >
+    <GifGridItem
+      id="1"
+      img="https://google.mx/img.jpg"
+      key="1"
+      title="title"
+    />
+    <GifGridItem
+      id="123"
+      img="https://google.mx/img.jpg"
+      key="123"
+      title="title"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas en componente <GifGrid /> debe de mostrarse correctamente 1`] = `
+<Fragment>
+  <h3>
+    Overwatch
+  </h3>
+  Cargando...
+</Fragment>
+`;

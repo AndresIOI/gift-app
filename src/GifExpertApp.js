@@ -3,9 +3,9 @@ import React, { useState } from 'react'
 import AddCategory from './components/AddCategory';
 import GifGrid from './components/GifGrid';
 
-const GifExpertAppp = () => {
+const GifExpertAppp = ({ defaultCategories = []}) => {
 
-  const [categories, setCategories] = useState(['League of Legends']);
+  const [categories, setCategories] = useState(defaultCategories);
 
   return(
     <>
